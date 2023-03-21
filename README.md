@@ -1,5 +1,23 @@
 ### Hi there 👋
 
+I'm Konstantin, a Full Stack Developer
+
+Here is my tool set:
+- Typescript
+- Node.js
+- GraphQL
+- Docker
+- Kubernetes
+- AWS (S3, CloudFront, Lambda, etc)
+- Redis
+- CouchDB (+full-text search)
+- BullMQ
+- React.js
+- Vite.js
+- Koa/Express/Hapi
+- Apollo Client <-> Apollo Server
+- Prometheus/Graphana/AlertManager
+
 <!--
 **kvzhkv/kvzhkv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
