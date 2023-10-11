@@ -8,13 +8,14 @@ Here is my tool set:
 - GraphQL
 - Docker
 - Kubernetes
-- AWS (S3, CloudFront, Lambda, etc)
+- AWS (S3, CloudFront, Lambda, SES, etc)
 - Redis
 - CouchDB (+full-text search)
 - BullMQ
 - React.js
 - Vite.js
 - Koa/Express/Hapi
+- WebGL (Babylon.js)
 - Apollo Client <-> Apollo Server
 - Prometheus/Graphana/AlertManager
 
