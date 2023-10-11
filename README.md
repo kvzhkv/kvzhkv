@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm Konstantin, a Full Stack Developer
+I'm a Web Developer.
 
 Here is my tool set:
 - Typescript
