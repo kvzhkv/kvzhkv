@@ -4,5 +4,8 @@
     "description": "Konstantin Zhukov's personal website",
     "repository": "https://github.com/kvzhkv/kvzhkv.git",
     "author": "Konstantin Zhukov <kvzhkv@gmail.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "@11ty/eleventy": "^2.0.1"
+    }
 }
