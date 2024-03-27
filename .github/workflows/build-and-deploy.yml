@@ -15,11 +15,11 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: 18
-                  cache: "npm"
+                  cache: "yarn"
             - name: Install packages
-              run: npm ci
+              run: yarn
             - name: Build with Eleventy
-              run: npm run build
+              run: yarn build
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v2
               with:
