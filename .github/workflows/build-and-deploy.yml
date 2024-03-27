@@ -1,7 +1,9 @@
 on:
     push:
+        tags:
+            - v*
         branches:
-            - "main"
+            - main
 jobs:
     build_and_deploy:
         runs-on: ubuntu-latest
