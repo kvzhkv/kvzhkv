@@ -6,7 +6,7 @@
     "author": "Konstantin Zhukov <kvzhkv@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "start": "eleventy --serve",
+        "dev": "eleventy --serve",
         "build": "eleventy"
     },
     "devDependencies": {
