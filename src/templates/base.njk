@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ title }}</title>
+        {% set commoncss %} {% include "../styles/common.css" %} {% endset %}
+        {% set css %} {% include "../styles/" + styles %} {% endset %}
+        <style>{{ commoncss | cssmin | safe }}{{ css | cssmin | safe }}</style>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EE71CN8YGN"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-EE71CN8YGN');
+        </script>
+    </head>
+    <body>
+        <header class="container">
+            <a href="/" class="home-link">
+                <div class="avatar">
+                    <img src="/images/avatar.jpg" />
+                </div>
+                <div class="titles">
+                    <h1>Konstantin Zhukov</h1>
+                    <div>Web Developer</div>
+                </div>
+            </a>
+            <ul class="contacts">
+                {%- for contact in contacts %}
+                    <li>
+                        <a href="{{ contact.link }}" target="_blank">
+                            {% inlineSvg contact.icon %}
+                        </a>
+                    </li>
+                {%- endfor %}
+            </ul>
+        </header>
+        <main class="container">{{ content | safe }}</main>
+    </body>
+</html>
