@@ -8,7 +8,7 @@ title: Konstantin Zhukov
 
 ## About me
 
-Hi there! I am a software engineer with 5+ years of experience in web development (backend and frontend), code deployment, team management, and project management. Proficient in a wide tech stack related to the web.
+Hi there! I am a software engineer with 6+ years of experience in web development (backend and frontend), code deployment, team management, and project management. Proficient in a wide tech stack related to the web.
 
 I'm always concerned about the quality, maintainability and performance of the code.
 
